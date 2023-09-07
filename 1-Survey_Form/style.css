@@ -1,0 +1,102 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: linear-gradient( 115deg, rgba(58, 58, 158, 0.2), rgba(136, 136, 206, 0.4) ), url(https://www.exascaleproject.org/wp-content/uploads/2019/11/PathForward-scaled.jpg);
+  font-family: 'Poppins', sans-serif;
+}
+
+header {
+  width: 40%;
+  height: 80px;
+  /*background-color: red;*/
+  margin: 0 auto;
+  min-width: 500px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  flex-direction: column;
+}
+
+#title {
+  color: white;
+  text-align: center;
+  font-weight: 300;
+}
+
+#description {
+  font-size: 0.5em;
+  text-align: center;
+  color: white;
+  font-weight: 200;
+}
+
+main {
+  width: 40%;
+  /*height: 100vh;*/
+  background-color: rgba(0, 51, 102, 0.8);
+  border-radius: 5px;
+  margin: 0 auto;
+  min-width: 500px;
+  padding: 30px 40px 50px 40px;
+}
+
+ .form-control {
+  display: block;
+  width: 100%;
+  height: 2.1rem;
+  border-radius: 7px;
+  background-color: white;
+  border: 1px solid #ced4da;
+  color: #495057;
+  padding-left: 10px;
+}
+
+label, p {
+  color: white;
+  font-size: 1.1em;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.form-group {
+  padding: 2px;
+  margin: 0 auto 20px auto;
+}
+
+.little {
+  font-size: 0.7em;
+  margin-left: 4px;
+}
+
+.input-radio {
+  margin-right: 10px;
+  min-height: 1.5em;
+  min-width: 1.5em;
+}
+
+.input_textarea {
+  width: 100%;
+  border: 1px solid #ced4da;
+  min-height: 125px;
+  resize: vertical;
+  padding: 10px;
+}
+
+.submit_button {
+  width: 100%;
+  padding: 10px;
+  cursor: pointer;
+  background-color: #42b5d0;
+  color: white;
+  font-size: 1.1em;
+  border-radius: 6px;
+  border: none;
+}

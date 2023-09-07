@@ -1,0 +1,112 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+    
+}
+
+main {
+    margin: 50px 20px;
+    padding: 18px;
+    border-radius: 5px;
+    background: #eee;
+}
+
+figure {
+    background: white;
+    padding: 18px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    width: 70%;
+    height: auto;
+    object-fit: cover;
+    max-width:100%;
+    
+}
+
+#title{
+    font-size: 2.8em;
+    margin-top: 30px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+#title2 {
+    margin: 5px 0 16px 0;
+    color: #3e9ac7;
+    font-size: 1.3em;
+    text-align: center;
+}
+
+#img-caption {
+    margin: 15 0 0 0;
+}
+
+h2 {
+  font-family: 'Poppins', sans-serif; 
+  font-size: 1.2em; 
+  text-align: center;
+  margin: 50 0 50 0;
+} 
+
+li {
+    padding: 8 0 8 0;
+    
+}
+
+ul {
+    max-width: 600px;
+    margin : 0 auto 50 auto;
+    text-align: justify;
+    font-size: 1.1em;
+    
+}
+
+.date {
+    font-weight: 800;
+    color: #3e9ac7;
+}
+
+blockquote  {
+    font-style: italic;
+    max-width: 600px;
+    margin: 0 auto 50px auto;
+    font-size: 1.1em;
+    color: #3e9ac7;
+
+}
+
+blockquote p {
+    margin: 0 0 15 0;
+}
+
+h3 {
+    text-align: center;
+}
+
+a:visited {
+    color: #74638f;
+}
+a {
+    color: #3e9ac7;
+}
+
+#tribute-info {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+#biography {
+    margin: 30px;
+    
+}

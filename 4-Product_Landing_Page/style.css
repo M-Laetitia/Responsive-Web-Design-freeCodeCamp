@@ -1,0 +1,310 @@
+
+*, ::after, ::before {
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Nunito Sans', sans-serif;
+  color: #3c3c3c;
+}
+
+#page-wrapper {
+    position: relative;
+    background-color: #f2f1f1;
+}
+
+header {
+  background-color: white;
+  width: 100%;
+  padding: 0 40px;
+  min-height: 70px;
+  position: fixed;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#header-img {
+  width: 280px;
+  height: auto;
+}
+
+nav> ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 30vw;
+  margin-right: 30px;
+}
+
+nav a {
+  text-decoration: none;
+  cursor: pointer;
+  color: #3c3c3c;
+  font-size: 1em;
+}
+
+nav a:hover{
+  color: #84c2cb;
+}
+
+li {
+    list-style: none;
+}
+
+#hero {
+  background-color: #f2f1f1;
+  width: 1000px;
+  height: 200px;
+  margin: auto;
+  margin-top: 70px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#hero h2 {
+  font-size: 2.7rem;
+  margin-bottom: 20px;
+  font-family: 'Amatic SC', cursive;
+  letter-spacing: 1px;
+  margin-top: 30px;
+  
+}
+
+#hero input[type='email'] {
+    max-width: 275px;
+    width: 100%;
+    padding: 8px;
+    border: none;
+    border-radius: 2px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+#hero input[type='submit'] {
+    max-width: 150px;
+    width: 100%;    
+    background-color: #be9ac0;
+    padding: 7px;
+    font-size: 0.9em;
+    color: white;
+}
+
+#hero input[type='submit']:hover {
+    background-color: #fdb9a9;
+}
+
+.btn {
+    font-weight: 700;
+    text-transform: uppercase;
+    border-radius: 2px;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+}
+
+.container {
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #f2f1f1;
+}
+
+#features {
+  margin-top: 40px;
+  width: 100%;
+}
+
+
+#features .icon {
+display: flex;
+align-items: center;
+justify-content: center;
+height: 120px;
+width: 9vw;
+}
+
+#features .icon i {
+font-size:2.8em;
+}
+
+#features .grid:first-child i {
+  color: #f6957e;
+}
+
+#features .grid:nth-child(2) i {
+  color: #84c2cb;
+}
+
+#features .grid:nth-child(3) i {
+  color: #be9ac0;
+}
+
+
+#features .desc {
+height: 130px;
+width: 91vw;
+margin: 0 20;
+text-align: justify;
+}
+
+.grid {
+  margin: 20px;
+  display: flex;
+}
+
+#features .desc h2 {
+font-family: 'Amatic SC', cursive;
+font-size: 1.8em;
+letter-spacing: 1px;
+text-transform: lowercase;
+
+}
+
+#demonstration {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+#pricing {
+  /*background-color: pink;*/
+  margin-top: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 60px 20px;
+}
+
+.product {
+  margin: 10px;
+  border: solid 1px #3c3c3c;
+  width: calc(100% / 3);
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+  border-radius: 3px;
+}
+
+.level {
+  text-transform: uppercase;
+  font-family: 'Amatic SC', cursive;
+  font-size: 1.7em;
+  letter-spacing: 2px;
+  font-weight: 600;
+  width: 100%;
+  text-align: center;
+  color: white;
+  
+  
+}
+
+#pricing .product:first-child p {
+  background-color: #f1a181;
+  padding: 6px 0;
+  margin-bottom: 15;
+}
+
+#pricing .product:first-child {
+  border-color: #f1a181;
+  
+}
+
+#pricing .product:nth-child(2) p {
+  background-color: #84c2cb;
+  padding: 6px 0;
+  margin-bottom: 15;
+}
+
+#pricing .product:nth-child(2) {
+  border-color: #84c2cb;
+}
+
+#pricing .product:nth-child(3) p {
+  background-color: #be9ac0;
+  padding: 6px 0;
+  margin-bottom: 15;
+}
+
+#pricing .product:nth-child(3) {
+  border-color: #be9ac0;
+}
+
+#pricing h2 {
+  font-size: 1.4em;
+  margin-bottom: 15;
+}
+
+#pricing li {
+  margin: 10 0;
+}
+
+#pricing ol {
+  margin-bottom: 15;
+}
+
+#pricing .btn {
+  padding: 12 20;
+  background-color: #f2f2f2;
+  
+  font-size: 1em;
+  font-weight: 700;
+  letter-spacing: 1px;
+  border-radius: 3px;
+  margin-bottom: 20px;
+}
+
+#pricing .product:first-child .btn {
+  color: #f1a181;
+}
+
+#pricing .product:nth-child(2) .btn {
+  color: #84c2cb;
+}
+
+#pricing .product:nth-child(3) .btn {
+  color: #be9ac0;
+}
+
+footer {
+  background: #e5e5e5;
+ display: flex;
+ flex-direction: column;
+ padding: 15;
+
+}
+
+footer ul {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 15 ;
+  gap: 15px;
+}
+
+footer p {
+  text-align: right;
+  margin-right: 15 ;
+  font-size: 0.9em;
+}
+
+footer a {
+  text-decoration: none;
+  color: #3c3c3c;
+}
+
+
+footer a:hover {
+  color: #4b98a3;
+}
+
+
+@media (max-width: 650px) {
+#hero {
+    margin-top: 120px;
+}
